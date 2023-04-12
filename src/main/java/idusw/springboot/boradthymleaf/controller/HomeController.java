@@ -12,6 +12,11 @@ public class HomeController {
 
     @GetMapping("/")
     public String goHome() {
-        return "index";
+        return "sb-admin-2/index";
     }
+    @GetMapping("/buttons")
+    public String goButton() { return "sb-admin-2/buttons"; }
+    @GetMapping("/cards")
+    public String goCard() { return "adb-admin-2/cards"; }
+
 }
