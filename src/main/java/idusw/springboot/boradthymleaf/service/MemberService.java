@@ -11,5 +11,7 @@ public interface MemberService {
         int update(Member m);
         int delete(Member m);
 
-        List<Member> initialize();
+        Member login(Member m);
+
+
 }
