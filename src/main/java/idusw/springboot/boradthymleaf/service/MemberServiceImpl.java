@@ -3,9 +3,11 @@ package idusw.springboot.boradthymleaf.service;
 import idusw.springboot.boradthymleaf.domain.Member;
 import idusw.springboot.boradthymleaf.entity.MemberEntity;
 import idusw.springboot.boradthymleaf.repository.MemberRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class MemberServiceImpl implements MemberService{
 
     MemberRepository memberRepository;
